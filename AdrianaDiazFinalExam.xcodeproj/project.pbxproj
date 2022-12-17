@@ -13,6 +13,8 @@
 		28617C91294BAFC500A49418 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28617C8F294BAFC500A49418 /* Main.storyboard */; };
 		28617C93294BAFC600A49418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28617C92294BAFC600A49418 /* Assets.xcassets */; };
 		28617C96294BAFC600A49418 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28617C94294BAFC600A49418 /* LaunchScreen.storyboard */; };
+		28D0E05D294C6294006E6A42 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0E05C294C6294006E6A42 /* Model.swift */; };
+		28D0E05F294C65D6006E6A42 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D0E05E294C65D6006E6A42 /* ListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		28617C92294BAFC600A49418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28617C95294BAFC600A49418 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28617C97294BAFC600A49418 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28D0E05C294C6294006E6A42 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		28D0E05E294C65D6006E6A42 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				28617C92294BAFC600A49418 /* Assets.xcassets */,
 				28617C94294BAFC600A49418 /* LaunchScreen.storyboard */,
 				28617C97294BAFC600A49418 /* Info.plist */,
+				28D0E05C294C6294006E6A42 /* Model.swift */,
+				28D0E05E294C65D6006E6A42 /* ListTableViewController.swift */,
 			);
 			path = AdrianaDiazFinalExam;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				28617C8E294BAFC500A49418 /* ViewController.swift in Sources */,
 				28617C8A294BAFC500A49418 /* AppDelegate.swift in Sources */,
 				28617C8C294BAFC500A49418 /* SceneDelegate.swift in Sources */,
+				28D0E05F294C65D6006E6A42 /* ListTableViewController.swift in Sources */,
+				28D0E05D294C6294006E6A42 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
