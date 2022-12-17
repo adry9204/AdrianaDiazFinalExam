@@ -49,6 +49,10 @@ class ViewController: UIViewController {
         let height = Double(heightInput.text!)
         var result = 0.0
         
+        if(weight == nil || height == nil) {
+            return
+        }
+        
         //calculating the BMI according with the system selected
         if(imperialSystem) {
             result = (weight!*703)/(height!*height!)
