@@ -17,4 +17,8 @@ struct BMIEntry {
         self.bmi = bmi
         self.date = date
     }
+    
+    func getString() -> String {
+        return "W:" + String(weight) + "      BMI: " + bmi + "      D: " + date
+    }
 }
